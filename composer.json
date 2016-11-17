@@ -1,0 +1,29 @@
+{
+    "name": "soda-framework/omnipay-merchant-warrior",
+    "description": "Omnipay package for the Merchant Warrior payment gateway",
+    "type": "library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "MerchantWarrior",
+        "Merchant",
+        "Warrior"
+    ],
+    "authors": [
+        {
+            "name": "Jarrad Littleford",
+            "email": "jarrad.littleford@protonmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": { "Soda\\Omnipay\\MerchantWarrior\\": "src/" }  
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "omnipay/common": "^2.5",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
