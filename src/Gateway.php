@@ -15,7 +15,7 @@ class Gateway extends AbstractGateway{
     public function getDefaultParameters(){
         return [
             'MerchantUUID'      => '',
-            'Apikey'            => '',
+            'ApiKey'            => '',
             'ApiPassphrase'     => ''
         ];
     }
