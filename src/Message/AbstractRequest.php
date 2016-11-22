@@ -112,6 +112,14 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
         return $this->getTestMode() ? $this->testEndPoint : $this->liveEndpoint;
     }
 
+    public function getStoreID(){
+        return $this->getParameter('storeID');
+    }
+
+    public function setStoreID($value){
+        $this->setParameter('storeID', $value);
+    }
+
     public function sendData($data){
         $client = new Client();
         $response = $client->request('POST', $this->getEndPoint(), [

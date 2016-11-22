@@ -19,14 +19,6 @@ abstract class AbstractPaymentRequest extends AbstractRequest{
         $this->setParameter('transactionProduct', $value);
     }
 
-    public function getStoreID(){
-        $this->getParameter('storeID');
-    }
-
-    public function setStoreID($value){
-        $this->setParameter('storeID', $value);
-    }
-
     public function getData()
     {
         $this->validate();
@@ -38,10 +30,10 @@ abstract class AbstractPaymentRequest extends AbstractRequest{
             'transactionCurrency' => (is_null($this->getCurrency()))? 'AUD' : $this->getCurrency(),
             'transactionProduct' => $this->getTransactionProduct(),
             'transactionReferenceID' => $this->getTransactionReference(),
+            'storeID' => $this->getStoreID(),
             'custom1' => $this->getCustom1(),
             'custom2' => $this->getCustom2(),
             'custom3' => $this->getCustom3(),
-            'storeID' => $this->getStoreID(),
             'hash' => $this->getTransactionHash()
         ];
         return array_merge($data, $this->getCardData());
