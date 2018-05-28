@@ -1,6 +1,6 @@
 {
-    "name": "soda-framework/omnipay-merchant-warrior",
-    "description": "Omnipay package for the Merchant Warrior payment gateway",
+    "name": "kimoslim/omnipay-merchant-warrior",
+    "description": "Omnipay package for the Merchant Warrior payment gateway based on https://github.com/soda-framework/omnipay-merchant-warrior",
     "type": "library",
     "keywords": [
         "gateway",
@@ -14,8 +14,8 @@
     ],
     "authors": [
         {
-            "name": "Jarrad Littleford",
-            "email": "jarrad.littleford@protonmail.com"
+            "name": "Kim Richardson",
+            "email": "kim@homstar.com.au"
         }
     ],
     "autoload": {
