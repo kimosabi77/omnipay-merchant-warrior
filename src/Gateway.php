@@ -51,7 +51,7 @@ class Gateway extends AbstractGateway{
      */
     public function authorize(array $parameters = []){
         return $this->createRequest(
-            '\Soda\Omnipay\MerchantWarrior\Message\AuthorizeRequest',
+            '\Omnipay\MerchantWarrior\Message\AuthorizeRequest',
             $parameters
         );
     }
@@ -63,7 +63,7 @@ class Gateway extends AbstractGateway{
      */
     public function capture(array $parameters = []){
         return $this->createRequest(
-            '\Soda\Omnipay\MerchantWarrior\Message\CaptureRequest',
+            '\Omnipay\MerchantWarrior\Message\CaptureRequest',
             $parameters
         );
     }
@@ -75,7 +75,7 @@ class Gateway extends AbstractGateway{
      */
     public function purchase(array $parameters = []){
         return $this->createRequest(
-            '\Soda\Omnipay\MerchantWarrior\Message\PurchaseRequest',
+            '\Omnipay\MerchantWarrior\Message\PurchaseRequest',
             $parameters
         );
     }
