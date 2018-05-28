@@ -1,6 +1,6 @@
 <?php
 
-namespace Soda\Omnipay\MerchantWarrior\Message;
+namespace Omnipay\MerchantWarrior\Message;
 
 use Guzzle\Http\ClientInterface;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;

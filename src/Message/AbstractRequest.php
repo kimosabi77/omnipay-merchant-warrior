@@ -1,5 +1,5 @@
 <?php
-namespace Soda\Omnipay\MerchantWarrior\Message;
+namespace Omnipay\MerchantWarrior\Message;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request as GuzzleReqeust;

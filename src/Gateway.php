@@ -1,6 +1,6 @@
 <?php
 
-namespace Soda\Omnipay\MerchantWarrior;
+namespace Omnipay\MerchantWarrior;
 
 use Omnipay\Common\AbstractGateway;
 

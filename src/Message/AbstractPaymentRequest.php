@@ -1,6 +1,6 @@
 <?php
 
-namespace Soda\Omnipay\MerchantWarrior\Message;
+namespace Omnipay\MerchantWarrior\Message;
 
 abstract class AbstractPaymentRequest extends AbstractRequest{
     /**

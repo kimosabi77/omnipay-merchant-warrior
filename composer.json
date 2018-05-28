@@ -19,7 +19,7 @@
         }
     ],
     "autoload": {
-      "psr-4": { "Soda\\Omnipay\\MerchantWarrior\\": "src/" }  
+      "psr-4": { "Omnipay\\MerchantWarrior\\": "src/" }  
     },
     "minimum-stability": "dev",
     "require": {

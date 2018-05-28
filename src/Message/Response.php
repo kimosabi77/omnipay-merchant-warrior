@@ -1,6 +1,6 @@
 <?php
 
-namespace Soda\Omnipay\MerchantWarrior\Message;
+namespace Omnipay\MerchantWarrior\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 use Omnipay\Common\Message\RequestInterface;
